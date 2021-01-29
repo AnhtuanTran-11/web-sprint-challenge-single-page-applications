@@ -11,3 +11,122 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links a {
+  text-decoration: none;
+  margin-inline: 1rem;
+}
+.restaurant-header {
+  padding: 2rem;
+}
+.homeImage {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+}
+.pizzaButton {
+  box-sizing: border-box;
+  border: none;
+  height: 2.5 rem;
+  color: #fff;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  padding: 1rem;
+  border-radius: 5px 5px 5px 5px;
+  left: 47%;
+  margin-top: 2rem;
+}
+.button {
+  box-sizing: border-box;
+  border: none;
+  height: 2.5 rem;
+  color: #fff;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 1rem;
+}
+.orderButton {
+  box-sizing: border-box;
+  border: none;
+  height: 2.5 rem;
+  color: #fff;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.orderButton:hover {
+    cursor: pointer;
+}
+.orderButton:disabled {
+    color: crimson;
+    background-color: white;
+    border: 2px solid crimson;
+    cursor: not-allowed;
+}
+.orderButton:enabled {
+  
+}
+.orderImage {
+  width: 50%;
+}
+.buildPizza {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.choiceOfSize {
+  border: 1px solid black;
+  font-family:'Courier New', Courier, monospace;
+}
+.choiceOfSauce {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-family:'Courier New', Courier, monospace;
+}
+.toppings {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.textBox {
+  width: 50%;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.specialInstructions .special {
+  margin-left: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.name {
+  margin-left: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.nameInput {
+  height: 2rem;
+}
